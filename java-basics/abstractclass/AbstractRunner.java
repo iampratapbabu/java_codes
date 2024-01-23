@@ -1,4 +1,4 @@
-package project1.abstractclass;
+package abstractclass;
 
 public class AbstractRunner {
 

@@ -1,4 +1,3 @@
-package project1;
 
 public class JavaFunctions {
 	static int fun(int a,int b) {

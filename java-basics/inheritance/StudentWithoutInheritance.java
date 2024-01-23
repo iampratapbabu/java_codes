@@ -1,4 +1,4 @@
-package project1.inheritance;
+package inheritance;
 
 public class StudentWithoutInheritance {
 	private String name;

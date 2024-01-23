@@ -1,4 +1,4 @@
-package project1.inheritance;
+package inheritance;
 
 
 //extends means "IS A" relation ship

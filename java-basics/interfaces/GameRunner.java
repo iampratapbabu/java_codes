@@ -1,4 +1,4 @@
-package project1.interfaces;
+package interfaces;
 
 public class GameRunner {
 
