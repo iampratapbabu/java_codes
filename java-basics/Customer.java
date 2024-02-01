@@ -1,4 +1,4 @@
-
+  
 public class Customer {
 	//state
 	private String name;

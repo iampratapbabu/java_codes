@@ -18,7 +18,7 @@ public class ArraysAndArrayList {
 		System.out.println(sum);
 		
 		int[] marks2 = new int[5]; //array of 5 int size will be created and 0 se intialized ho jayega	
-		System.out.println(marks2[2]);
+		System.out.println("marks2=>"+marks2[2]);
 		
 		System.out.println(marks); //we will get the memory location
 		//to print the whole array using sysout

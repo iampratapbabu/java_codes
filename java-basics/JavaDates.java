@@ -24,6 +24,7 @@ public class JavaDates {
 		//setting date to a specific value
 		LocalDate yesterday = LocalDate.of(2022, 06, 15);
 		System.out.println(yesterday);
+		System.out.println(yesterday.minusDays(1));
 
 	}
 
