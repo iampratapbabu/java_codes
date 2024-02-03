@@ -8,7 +8,7 @@ public class Person {
 	//constructor
 	public Person(String name) {
 		this.name=name;
-		System.out.println("person constructor");
+		System.out.println("person constructor runs");
 	}
 	
 	//getters and setters
