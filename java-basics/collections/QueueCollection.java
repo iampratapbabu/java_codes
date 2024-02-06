@@ -10,7 +10,7 @@ public class QueueCollection {
 		Queue<String> myqueue = new PriorityQueue<>();
 		myqueue.offer("apple"); //to insert an element inside queue
 		myqueue.addAll(List.of("zebra","monkey","cat"));
-		
+		System.out.println("element remove=>"+myqueue.poll()); //removing element from queue;
 		
 		System.out.println("all elements inside myqueue=>"+myqueue);
 	}

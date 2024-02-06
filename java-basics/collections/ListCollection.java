@@ -11,6 +11,7 @@ public class ListCollection {
 
 	public static void main(String[] args) {
 		
+		//anything we create using .of operator is immutable here these lists are immutable
 		List<String> words = List.of("Apple","Bat","Cat");
 		List<String> animals = List.of("zebra","lion","horse");
 		List<Integer> numbers = List.of(989,34,54,67,34,33,2,4);
