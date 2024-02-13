@@ -3,7 +3,7 @@ package collections;
 import java.util.Set;
 import java.util.HashSet;
 
-public class SetCollection4 {
+public class SetCollection {
 
 	public static void main(String[] args) {
 		// It contains unique things only no duplicacy is allowed

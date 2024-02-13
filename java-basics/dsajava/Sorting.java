@@ -2,7 +2,7 @@ package dsajava;
 
 public class Sorting {
 	
-	  private static void selectionSort(int arr[],int n){
+	 private static void selectionSort(int arr[],int n){
 		    
 	        for(int i=0;i<n;i++){
 	            int mini = i;
@@ -23,7 +23,7 @@ public class Sorting {
 	        
 	    }
 	  
-	  private static void bubbleSort(int arr[],int n){
+	 private static void bubbleSort(int arr[],int n){
 	        //here n is size so last index is n-1
 	        for(int i=n-1;i>=0;i--){
 	            for(int j=0;j<i;j++){
@@ -40,7 +40,7 @@ public class Sorting {
 	        }
 	    }
 	  
-	  private static void insertionSort(int arr[],int n){
+	 private static void insertionSort(int arr[],int n){
 	        //here n is size so last index is n-1
 	        for(int i=0;i<n;i++){
 	            for(int j=i+1;j<n;j++){
