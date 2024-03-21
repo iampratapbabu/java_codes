@@ -11,10 +11,15 @@ public class FanRunner {
 		Fan fan2 = new Fan("havells",30,"blue",true);
 		fan2.changeSpeed(45);
 		fan2.getSpeed();
+
+		int a = 5;
+		System.out.println(a);
 		
 		fan2.fanState();
 		fan2.switchOff();
 		fan2.fanState();
+
+
 		
 
 	}
