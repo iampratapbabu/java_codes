@@ -1,6 +1,6 @@
 package exceptionhandling;
 
-public class ExceptionHandling {
+public class ExceptionHandlingMain {
 
     public static void main(String[] args){
         System.out.println("exception handling fun started");  
