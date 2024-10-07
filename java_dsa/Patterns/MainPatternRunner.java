@@ -7,6 +7,7 @@ public class MainPatternRunner {
         //Pattern.pattern3();
         //Pattern.pattern4();
         //Pattern.pattern5();
-        Pattern.pattern6();
+        //Pattern.pattern6();
+        Pattern.pattern7(5);
     }
 }
