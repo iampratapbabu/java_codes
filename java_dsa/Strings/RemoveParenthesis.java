@@ -1,31 +1,35 @@
 package Strings;
 
 import java.util.Arrays;
+import java.util.StringJoiner;
 
 public class RemoveParenthesis {
     public static void main(String[] args){
        String mystr = "(()())(())(()(()))";
 
        int openCounter = 0;
-       int closedCounter = 0;
-       String res = "";
+       String str = "";
+        StringJoiner sj = new StringJoiner("");
 //      for(int i=0;i<mystr.length();i++){
 //          int tempChar = mystr.charAt(i);
 //        System.out.println(tempChar);
 //      }
 
         for (char ch : mystr.toCharArray()) {
-            if(ch == '(') {
+            if(ch == '('){
+                if(openCounter > 0){
+                    str  = str+ch;
+                }
                 openCounter++;
-            }else if(ch == ')' && openCounter >=2){
-                res += "()";
-                openCounter--;
             }else{
                 openCounter--;
+                if(openCounter > 0){
+                    str  = str+ch;
+                }
             }
         }
 
-        System.out.println(res);
+        System.out.println(str);
 
     }
 }
